@@ -1,0 +1,7 @@
+#
+# Copyright (c) 2021 Neela Nurseries
+#
+
+menu "STMicro drivers"
+rsource "stmicro/Kconfig"
+endmenu

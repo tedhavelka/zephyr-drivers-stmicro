@@ -1,0 +1,9 @@
+#
+# Copyright (c) 2021 Neela Nurseries
+#
+
+description:  STMicro 3-axis accelerometer
+
+compatible: "stmicro,iis2dh"
+
+include: i2c-device.yaml

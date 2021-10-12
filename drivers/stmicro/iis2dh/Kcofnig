@@ -1,0 +1,19 @@
+#
+# Copyright (c) 2021 Neela Nurseries
+#
+
+menuconfig IIS2DH
+	bool "STMicro 3-axis acceleromter"
+	depends on I2C
+	help
+	  Enable driver for STMicro 3-axis acceleromter
+
+if IIS2DH
+
+config IIS2DH_DRV_NAME
+	string "STMicro IIS2DH Driver's name"
+	default "IIS2DH"
+	help
+	  This option sets the driver name
+
+endif # IIS2DH

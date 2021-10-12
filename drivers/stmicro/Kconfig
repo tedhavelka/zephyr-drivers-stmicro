@@ -1,0 +1,7 @@
+#
+# Copyright (c) 2021 Neela Nurseries
+#
+
+menu "IIS2DH driver"
+rsource "iis2dh/Kconfig"
+endmenu
